@@ -75,6 +75,14 @@ body {
   will-change: transform;
 }
 
+.eye::before {
+  transition: transform 0.18s ease-in;
+}
+
+.eye:not(.closed)::before {
+  transition: transform 0.3s ease-out;
+}
+
 .eye.closed::before {
   transform: translateY(5%);
 }
