@@ -1,4 +1,4 @@
-# OBSERVED
+# OBSERVED 👁️
 
 An interactive, animated "Eye" component built with React. The eye follows the user's cursor around the screen, blinks periodically, and closes when the cursor leaves the window or the tab becomes hidden.
 
